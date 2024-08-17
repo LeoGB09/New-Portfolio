@@ -1,0 +1,36 @@
+.cabecalho{  
+    padding: 1% 0 1% 10%;   
+    background-color: black;
+    border-bottom: 1px solid rgb(255, 0, 0);
+}
+.cabecalho_menu{
+    display: flex;
+    gap: 5%;
+}
+.cabecalho_link{
+    color: white;
+    font-size: 24px;
+}
+
+.cabecalho_link:hover{
+    text-shadow: 0 0 20px #fff;
+    transition: 0.5s;
+}
+
+@media (max-width: 1280px){
+    .cabecalho{
+        padding: 3% 0;
+    }
+    .cabecalho_menu{
+        justify-content: center;
+    }
+    .cabecalho_link{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px){
+    .cabecalho_link{
+        font-size: 16px;
+    }
+}
