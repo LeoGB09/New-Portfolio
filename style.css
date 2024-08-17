@@ -74,7 +74,7 @@ body{
 .texto_estilo{
     font-size: 1.9rem;
     text-indent: 25px;
-    text-align: left;
+    text-align: justify;
 }
 .imagens{
     width: 30%;
