@@ -14,10 +14,12 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     background-color: var(--cor-background);
     color: var(--cor-texto);
     box-sizing: border-box;
-    position: absolute;
 }
 
 /* MAIN APRESENTAÇÃO */
@@ -26,6 +28,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 10% 10%;
+    flex: 1 1 0;
 
     & .apresentacao_conteudo{
         width: 50%;
